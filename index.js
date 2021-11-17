@@ -15,7 +15,6 @@ const { readdirSync } = require('fs');
 const client = new CommandoClient({
 	commandPrefix: ']',
 	owner: '692632336961110087',
-//	invite: 'https://discord.gg/NsHp9egH8C',
 });
 
 
@@ -156,9 +155,6 @@ client.on("guildDelete", guild => {
 })
 
 
-
-//Logging in to discord
-//client.login(process.env.TOKEN)
 
 
 
